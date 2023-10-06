@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "tint-tweak",
+    "version": "${version}",
+    "name": "Tint Tweak",
+    "description": "Allows more uses of Tint Indices",
+    "authors": [
+        "ouroya"
+    ],
+    "contact": {},
+    "license": "CC BY-NC-SA 4.0",
+    "icon": "assets/tint-tweak/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "ouroya.tint_tweak.ExampleMod"
+        ],
+        "client": [
+            "ouroya.tint_tweak.ExampleModClient"
+        ]
+    },
+    "mixins": [
+        "tint-tweak.mixins.json",
+        {
+            "config": "tint-tweak.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": "*",
+        "minecraft": "*",
+        "java": "*",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
