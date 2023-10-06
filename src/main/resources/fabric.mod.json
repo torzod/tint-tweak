@@ -3,7 +3,7 @@
     "id": "tint-tweak",
     "version": "${version}",
     "name": "Tint Tweak",
-    "description": "Allows more uses of Tint Indices",
+    "description": "Allows more uses of tint indices",
     "authors": [
         "ouroya"
     ],
